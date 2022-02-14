@@ -4,7 +4,7 @@ Projeto de um perfil, estilo linktree com os links de redes socias, tecnologias 
 
 
 
- ##### Tecnológias usadas
+ ##### Tecnologias usadas
 
 * HTML
 
@@ -15,7 +15,7 @@ Projeto de um perfil, estilo linktree com os links de redes socias, tecnologias 
 ##### Imagem
 
 * Link
-https://danleycss.github.io/profile-card/
+<https://danleycss.github.io/profile-card/>
 
   
 
