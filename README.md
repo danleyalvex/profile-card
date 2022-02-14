@@ -14,11 +14,12 @@ Projeto de um perfil, estilo linktree com os links de redes socias, tecnologias 
 
 ##### Imagem
 
-* Link para o [profile card] (https://danleycss.github.io/profile-card/)
+* Link
+https://danleycss.github.io/profile-card/
 
   
 
-![profile card](C:\Users\danle\AppData\Roaming\Typora\typora-user-images\image-20220214103028274.png)
+![Profile card](https://user-images.githubusercontent.com/85087531/153874187-ee3a502d-739d-4a20-810f-56eb5a913f9a.png)
 
 
 
