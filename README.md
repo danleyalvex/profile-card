@@ -18,7 +18,7 @@ Link do projeto **[Profile card](https://danleyalvex.github.io/profile-card/)**
 
   
 
-![Profile card](https://user-images.githubusercontent.com/85087531/153874187-ee3a502d-739d-4a20-810f-56eb5a913f9a.png)
+![profile card!](/img/card.png "card profile")
 
 
 
