@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat' ; sans-serif;
+    font-family: 'Open Sans' , sans-serif;
     box-sizing: border-box;
     text-decoration: none;
 
@@ -10,7 +10,7 @@
 
 body{
     height: 100vh;
-    background: url(img/retro.gif) no-repeat center;
+    background: url('img/skull.gif') no-repeat center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -18,21 +18,24 @@ body{
 }
 
 .profile-card{
-    width:400px ;
+    width: 320px ;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 18px;
     overflow: hidden;
+    box-shadow: 2px 2px 30px black;
+
 }
 
 .card-header{
-    background: violet;
-    padding: 60px 40px;
+    background: rgba(255, 197, 226, 0.836);
+    padding: 14px 6px;
+    height: 370px;
 }
 
 .pic{
     display: inline-block;
     padding: 8px;
-    background: linear-gradient(130deg,lightblue , rgb(129, 75, 255));
+    background: linear-gradient(130deg,rgba(255, 124, 124, 0.486) , rgba(128, 0, 187, 0.616));
     margin: auto;
     border-radius: 50%;
     background-size:200% 200%;
@@ -82,35 +85,36 @@ body{
 }
 
 .sm a{
-    color:purple;
-    width: 40px;
+    color:rgb(110, 89, 110);
+    width: 30px;
     font-size: 25px;
     transition: .1s linear;
 }
 
 .sm a:hover{
-    color: lightblue;
+    color: rgb(0, 0, 0);
 
 }
 
 .contact-btn{
     display: inline-block;
     padding: 10px 50px;
-    color: rgb(183, 0, 255);
-    border: 2px solid rgb(71, 6, 66);
-    border-radius: 16px;
-    margin-top:35px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    margin-top:20px;
     transition: .1s linear;
 }
 
 .contact-btn:hover{
-    background: rgb(255, 103, 242);
-    color: rgb(190, 153, 255);
+    background: rgba(0, 0, 0, 0.692);
+    color: rgb(255, 255, 255);
 }
 
 .card-footer{
     background: rgb(248, 184, 219);
-    padding: 60px 10px;
+    padding: 10px 10px;
+    font-size: .9rem;
 }
 
 .audio{
@@ -120,8 +124,4 @@ body{
     padding: 0px 0px;
     box-sizing: border-box;
     
-}
-
-.video{
-    margin-top: 50%;
 }
