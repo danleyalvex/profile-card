@@ -10,7 +10,7 @@
 
 body{
     height: 100vh;
-    background: url('img/skull.gif') no-repeat center;
+    background: url('img/back.gif') no-repeat center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -22,20 +22,21 @@ body{
     text-align: center;
     border-radius: 18px;
     overflow: hidden;
-    box-shadow: 2px 2px 30px black;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.267);
 
 }
 
 .card-header{
-    background: rgba(255, 197, 226, 0.836);
+    background: linear-gradient(130deg,rgba(255, 124, 124, 0.486) , rgba(128, 0, 187, 0.616));
     padding: 14px 6px;
     height: 370px;
+    animation: animated-gradient 2s linear infinite;
 }
 
 .pic{
     display: inline-block;
     padding: 8px;
-    background: linear-gradient(130deg,rgba(255, 124, 124, 0.486) , rgba(128, 0, 187, 0.616));
+    background: linear-gradient(130deg,rgba(255, 124, 179, 0.486) , rgb(205, 98, 255));
     margin: auto;
     border-radius: 50%;
     background-size:200% 200%;
@@ -68,27 +69,32 @@ body{
     color:rgb(0, 0, 0);
     font-size: 25px;
     font-weight: 600;
-    margin: 10px ;
+    margin: 1px ;
 }
 
 .desc{
     font-size: 18px;
     justify-content: center;
-    margin: 10px 0;
+    margin: 3px 0;
 
 }
 
 .tech {
     font-size: 14px;
-    padding-bottom: 10px;
+    padding-bottom: 3px;
     font-weight: bold;
 }
 
 .sm a{
-    color:rgb(110, 89, 110);
+    /* color:rgba(0, 0, 0, 0.432); */
     width: 30px;
     font-size: 25px;
     transition: .1s linear;
+    padding: 2px;
+    margin-top: 4px;
+    border-radius: 5px;
+    background: linear-gradient(130deg,rgba(145, 77, 255, 0.486) , rgba(255, 0, 0, 0.315));
+    animation: animated-gradient 1s linear infinite;
 }
 
 .sm a:hover{
