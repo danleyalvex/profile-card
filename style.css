@@ -36,7 +36,7 @@ body{
 .pic{
     display: inline-block;
     padding: 8px;
-    background: linear-gradient(130deg,rgba(255, 124, 179, 0.486) , rgb(205, 98, 255));
+    background: linear-gradient(130deg,rgba(136, 0, 255, 0.486) , rgb(114, 1, 88));
     margin: auto;
     border-radius: 50%;
     background-size:200% 200%;
@@ -85,8 +85,13 @@ body{
     font-weight: bold;
 }
 
+.tech a {
+    text-decoration: none;
+    color: rgba(40, 3, 44, 0.823);
+}
+
 .sm a{
-    /* color:rgba(0, 0, 0, 0.432); */
+    color:rgba(0, 0, 0, 0.432);
     width: 30px;
     font-size: 25px;
     transition: .1s linear;
@@ -99,22 +104,27 @@ body{
 
 .sm a:hover{
     color: rgb(0, 0, 0);
-
+    transition: .8s all;
 }
 
 .contact-btn{
     display: inline-block;
     padding: 10px 50px;
-    color: rgb(0, 0, 0);
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 6px;
+    color: #000;
+    background: linear-gradient(130deg,rgba(149, 0, 89, 0.108) , rgba(0, 15, 115, 0.125));
+    border: 1px solid rgba(126, 0, 176, 0.53);
+    border-radius: 16px;
     margin-top:20px;
-    transition: .1s linear;
+    box-shadow: 1px 1px 5px #000;
+    transition: all .4s ease-out;
+   
 }
 
 .contact-btn:hover{
-    background: rgba(0, 0, 0, 0.692);
+   
+    background: linear-gradient(130deg,rgba(125, 0, 167, 0.379) , rgba(255, 0, 195, 0.148));
     color: rgb(255, 255, 255);
+    transform: scale(1.1);
 }
 
 .card-footer{
